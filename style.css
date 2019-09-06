@@ -1,22 +1,57 @@
-html, body {
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: 'Advent Pro';
   font-size: 22px;
+  background: #333333;
+}
+
+h1 {
+  font-family: 'Verdana';
+  margin-left: 40px;
+  color: white;
 }
 
 h2 {
+  font-family: 'Tahoma';
+  font-size: 1.3em;
   text-align: center;
   text-transform: uppercase;
-  color: #300054;
+  color: #c23636;
 }
 
 p {
   max-width: 750px;
   margin: 0 auto;
+  color: #fff;
+}
+
+strong,em {
+  color: #ffed47;
+}
+
+li {
+  color: red;
+  margin-bottom: 4px;
+}
+
+.rounded-image{
+  border-radius: 10%;
+  opacity: .5;
+  transition: border-radius 1s, opacity 1.5s;
+}
+
+.rounded-image:hover {
+  border-radius: 50%;
+  opacity: 1;
+  transition: border-radius .3s, opacity .3s;
+}
+
+.list {
+  list-style-type: square;
+}
+
+.centered-image-container {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .container {
@@ -25,8 +60,34 @@ p {
   padding: 20 20px;
 }
 
-.link {
+.code {
+  margin: 0 auto;
+  max-width: 700px;
+  border: 10px;
+  border-style: solid;
+  border-color: white;
+  background-color: #ffed47;
+}
 
+.link {
+  color: #fc7342;
+  text-decoration: none;
+}
+
+.fancy-table {
+  border: 4px;
+  border-style: solid;
+  border-color: #ffed47;
+  padding: 4px;
+}
+
+table.fancy-table:hover td{
+  background-color: #c23636;
+  color: white;
+}
+
+a:hover, a:active {
+  color: #ffed47;
 }
 
 /*.header {
